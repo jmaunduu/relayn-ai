@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Relayn AI — Voice AI for Plumbers | Never Miss a Call</title>
+  <meta name="description" content="Relayn answers every inbound call, qualifies the job, and books the callout — while you're still on the tools. Voice AI for plumbers and home service businesses. Live in 7–14 days. No contract.">
+  <meta name="keywords" content="voice AI for plumbers, AI answering service, missed call solution, plumber AI, home service AI, inbound call AI, call answering plumber, Relayn AI">
+  <link rel="canonical" href="https://www.relayn.ai/">
+
+  <!-- Geo targeting — US home service market -->
+  <meta name="geo.region" content="US">
+  <meta name="geo.placename" content="United States">
+  <meta name="ICBM" content="39.5, -98.35">
+
+  <!-- Open Graph (social sharing) -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.relayn.ai/">
+  <meta property="og:title"       content="Relayn AI — Voice AI for Plumbers">
+  <meta property="og:description" content="Every missed call is a job someone else just answered. Relayn picks up every inbound call, qualifies the job, and books the callout.">
+  <meta property="og:image"       content="https://www.relayn.ai/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Relayn AI — Voice AI for Plumbers">
+  <meta name="twitter:description" content="Every missed call is a job someone else just answered.">
+  <meta name="twitter:image"       content="https://www.relayn.ai/og-image.jpg">
+
+  <!-- Structured data — SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Relayn AI",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Voice AI that answers every inbound call for plumbers and home service businesses, qualifies jobs, and books callouts automatically.",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Contact for pricing"
+    },
+    "provider": {
+      "@type": "Person",
+      "name": "Joel Maundu",
+      "url": "https://www.relayn.ai"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "United States"
+    }
+  }
+  </script>
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-nav" id="siteNav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">RELAYN AI</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#how"   class="nav-link">How it works</a>
+        <a href="#cases" class="nav-link">Use cases</a>
+        <a href="#demo"  class="nav-link">Demo</a>
+        <a href="#faq"   class="nav-link">FAQ</a>
+      </nav>
+      <a href="#plans" class="nav-cta">Work with us →</a>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile drawer -->
+    <div class="nav-drawer" id="navDrawer" aria-hidden="true">
+      <a href="#how"   class="nav-drawer-link" tabindex="-1">How it works</a>
+      <a href="#cases" class="nav-drawer-link" tabindex="-1">Use cases</a>
+      <a href="#demo"  class="nav-drawer-link" tabindex="-1">Demo</a>
+      <a href="#faq"   class="nav-drawer-link" tabindex="-1">FAQ</a>
+      <a href="#plans" class="nav-drawer-cta"  tabindex="-1">Work with us →</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <!-- Animated WebGL Shader Background -->
+    <iframe class="shader-iframe" src="/shader.html" title="WebGL Shader Background"></iframe>
+    
+    <!-- Fallback Gradient Background -->
+    <div class="shader-fallback"></div>
+
+    <!-- Background glow — keep existing radial gradient -->
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <div class="hero-copy" data-hero-reveal>
+
+        <!-- Eyebrow — animates in first -->
+        <div class="section-eyebrow hero-reveal-item" style="--reveal-delay: 0ms">
+          Voice AI for home service businesses
+        </div>
+
+        <!-- Headline — each line is its own reveal item so they stagger -->
+        <h1 class="hero-title">
+          <span class="hero-reveal-item" style="--reveal-delay: 120ms">Every missed call</span>
+          <span class="hero-reveal-item" style="--reveal-delay: 220ms">is a job someone else</span>
+          <span class="hero-reveal-item" style="--reveal-delay: 320ms">just answered.</span>
+        </h1>
+
+        <!-- Sub-copy -->
+        <p class="hero-sub hero-reveal-item" style="--reveal-delay: 460ms">
+          Relayn is a voice AI for plumbers. It picks up every inbound call,
+          qualifies the job, and books the callout — while your hands are still on the tools.
+        </p>
+
+        <!-- CTA -->
+        <div class="hero-actions hero-reveal-item" style="--reveal-delay: 580ms">
+          <a href="#plans" class="hero-cta">Work with us →</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll indicator — fixed to bottom of hero -->
+    <div class="hero-scroll" aria-hidden="true">
+      <span class="hero-scroll-line"></span>
+      <span class="hero-scroll-label">Scroll</span>
+    </div>
+  </section>
+
+  <!-- 2. TRUST BAR -->
+  <section class="trust-bar" id="trust">
+    <div class="trust-inner reveal">
+      <div class="trust-item"><span class="trust-num">85%</span><span class="trust-label">of callers who hit voicemail never call back</span></div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item"><span class="trust-num">62%</span><span class="trust-label">of small business calls go unanswered</span></div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item"><span class="trust-num">$1,200</span><span class="trust-label">lost per missed call — Invoca 2023</span></div>
+      <div class="trust-divider" aria-hidden="true"></div>
+      <div class="trust-item"><span class="trust-num">1st</span><span class="trust-label">caller to answer wins the job. Every time.</span></div>
+    </div>
+  </section>
+
+  <!-- 3. DEMO — AUDIO PLAYER -->
+  <section class="demo-audio" id="demo">
+    <div class="demo-audio-inner reveal">
+      <div class="section-eyebrow">Live Call</div>
+      <h2 class="section-title">Hear it for yourself.</h2>
+      <p class="section-body">Real Relayn AI calls. No actors. No scripts.</p>
+      <div class="audio-card">
+        <div class="audio-tabs">
+          <button class="audio-tab is-active" data-clip="0">After-hours emergency</button>
+          <button class="audio-tab" data-clip="1">Mid-job call</button>
+          <button class="audio-tab" data-clip="2">Repeat customer</button>
+        </div>
+        <div class="audio-player">
+          <button class="play-btn" id="playBtn" aria-label="Play">
+            <span class="play-icon">▶</span><span class="pause-icon" hidden>❙❙</span>
+          </button>
+          <div class="waveform" id="waveform" aria-hidden="true"></div>
+          <div class="audio-meta">
+            <span class="audio-title" id="audioTitle">After-hours emergency — 1:42</span>
+            <span class="audio-time"  id="audioTime">0:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. TRY A DEMO — LIVE CALL -->
+  <section class="live-demo" id="try">
+    <div class="live-demo-inner reveal">
+      <div class="section-eyebrow">Try it now</div>
+      <h2 class="section-title">Talk to Relayn right now.</h2>
+      <p class="section-body">Enter your details and we'll call you — the same AI your customers will hear.</p>
+
+      <div class="demo-card" id="demoCard" data-state="form">
+
+        <!-- ── STATE: form ── -->
+        <div class="demo-state" data-for-state="form">
+          <form class="demo-form" id="demoForm" novalidate>
+            <div class="demo-form-row">
+              <div class="demo-field">
+                <label class="demo-label" for="demoFirst">First name</label>
+                <input class="demo-input" id="demoFirst" name="first" type="text" placeholder="Joel" autocomplete="given-name" required>
+              </div>
+              <div class="demo-field">
+                <label class="demo-label" for="demoLast">Last name</label>
+                <input class="demo-input" id="demoLast" name="last" type="text" placeholder="Maundu" autocomplete="family-name" required>
+              </div>
+            </div>
+            <div class="demo-field">
+              <label class="demo-label" for="demoPhone">Phone number</label>
+              <input class="demo-input" id="demoPhone" name="phone" type="tel" placeholder="+1 (555) 000-0000" autocomplete="tel" required>
+            </div>
+            <div class="demo-field">
+              <label class="demo-label" for="demoEmail">Email</label>
+              <input class="demo-input" id="demoEmail" name="email" type="email" placeholder="joel@company.com" autocomplete="email" required>
+            </div>
+            <button class="demo-submit" type="submit">
+              <svg width="16" height="16" viewBox="0 0 22 22" fill="none" aria-hidden="true"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1 1 0 0 0-1.02.24l-2.2 2.2A15.05 15.05 0 0 1 6.63 10.8l2.2-2.2a1 1 0 0 0 .24-1.02A11.36 11.36 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1c0 9.39 7.61 17 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1Z" fill="currentColor"/></svg>
+              Call me now
+            </button>
+            <p class="demo-form-note">Relayn will call the number above. Takes ~5 seconds to connect.</p>
+          </form>
+        </div>
+
+        <!-- ── STATE: ringing ── -->
+        <div class="demo-state" data-for-state="ringing" hidden>
+          <div class="call-ring" aria-hidden="true">
+            <div class="call-ring__pulse"></div>
+            <div class="call-ring__pulse call-ring__pulse--2"></div>
+            <div class="call-ring__icon">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1 1 0 0 0-1.02.24l-2.2 2.2A15.05 15.05 0 0 1 6.63 10.8l2.2-2.2a1 1 0 0 0 .24-1.02A11.36 11.36 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1c0 9.39 7.61 17 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1Z" fill="currentColor"/></svg>
+            </div>
+          </div>
+          <div class="call-label"><span class="csd is-amber"></span><span id="callerLabel">Calling…</span></div>
+        </div>
+
+        <!-- ── STATE: live ── -->
+        <div class="demo-state" data-for-state="live" hidden>
+          <button class="call-btn is-live" id="callHangup" aria-label="End call">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1 1 0 0 0-1.02.24l-2.2 2.2A15.05 15.05 0 0 1 6.63 10.8l2.2-2.2a1 1 0 0 0 .24-1.02A11.36 11.36 0 0 1 8.5 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1c0 9.39 7.61 17 17 17a1 1 0 0 0 1-1v-3.5a1 1 0 0 0-1-1Z" fill="currentColor"/></svg>
+          </button>
+          <div class="voice-bars" aria-label="Live call in progress">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="call-live-text">Live call — tap to end</span>
+        </div>
+
+        <!-- ── STATE: ended ── -->
+        <div class="demo-state" data-for-state="ended" hidden>
+          <div class="call-ended-icon" aria-hidden="true">✓</div>
+          <p class="call-ended-msg" id="endedMsg">Thanks. Check your phone — we'll follow up.</p>
+          <a href="#plans" class="demo-book-link">Book a proper call →</a>
+        </div>
+
+      </div>
+
+      <p class="call-disclaimer">Calls are handled by Relayn AI and may be recorded for demo purposes. We won't spam you.</p>
+    </div>
+  </section>
+
+  <!-- 5. THE PROBLEM — 3 STACKING CARDS -->
+  <section class="problem-stack" id="problem">
+
+    <div class="problem-panel"><div class="problem-card pc--one">
+      <div class="problem-copy">
+        <span class="problem-num">01</span>
+        <h2 class="problem-title">You can't answer when you're on a job.</h2>
+        <p class="problem-body">85% of those callers move straight to the next plumber. You never find out they called.</p>
+        <div class="problem-stat"><span class="stat-val">85%</span><span class="stat-src">of unanswered callers never call back — BIA/Kelsey</span></div>
+      </div>
+      <div class="problem-visual">
+        <div class="missed-call-mock">
+          <div class="mock-header">
+            <span>MISSED CALL · 2:34 PM</span>
+            <span class="red-dot"></span>
+          </div>
+          <div class="mock-body">
+            <div class="caller-name">Unknown Caller</div>
+            <div class="caller-number">+1 (555) 000-0000</div>
+          </div>
+          <div class="mock-footer">
+            <button class="mock-btn" disabled>Call Back</button>
+            <button class="mock-btn" disabled>Message</button>
+          </div>
+        </div>
+      </div>
+    </div></div>
+
+    <div class="problem-panel"><div class="problem-card pc--two">
+      <div class="problem-copy">
+        <span class="problem-num">02</span>
+        <h2 class="problem-title">Emergencies don't happen between 9 and 5.</h2>
+        <p class="problem-body">Your highest-margin work — $450–600 emergency calls — comes at the worst times. Your voicemail tells them to wait. They don't.</p>
+        <div class="problem-stat"><span class="stat-val">$600</span><span class="stat-src">average emergency callout — after-hours premium</span></div>
+      </div>
+      <div class="problem-visual">
+        <div class="time-mock">
+          <div class="mock-time">2:17 AM</div>
+          <div class="mock-label">Emergency request received</div>
+          <div class="mock-row">
+            <span class="green-dot animate-pulse"></span>
+            <span>Inbound — Emergency</span>
+          </div>
+        </div>
+      </div>
+    </div></div>
+
+    <div class="problem-panel"><div class="problem-card pc--three">
+      <div class="problem-copy">
+        <span class="problem-num">03</span>
+        <h2 class="problem-title">You can't count the calls you never heard.</h2>
+        <p class="problem-body">You're spending on Google Ads and going dark when the phone rings. Every missed call is also a wasted marketing dollar.</p>
+        <div class="problem-stat"><span class="stat-val">62%</span><span class="stat-src">of small business calls go unanswered — Invoca 2023</span></div>
+      </div>
+      <div class="problem-visual">
+        <div class="ad-spend-mock">
+          <div class="chart-container">
+            <div class="chart-group">
+              <div class="chart-bar-col"><div class="bar spend" style="height: 40%;"></div></div>
+              <div class="chart-bar-col"><div class="bar spend" style="height: 60%;"></div></div>
+              <div class="chart-bar-col"><div class="bar spend" style="height: 75%;"></div></div>
+              <div class="chart-bar-col"><div class="bar spend" style="height: 90%;"></div></div>
+            </div>
+            <div class="chart-group">
+              <div class="chart-bar-col"><div class="bar calls" style="height: 30%;"></div></div>
+              <div class="chart-bar-col"><div class="bar calls" style="height: 28%;"></div></div>
+              <div class="chart-bar-col"><div class="bar calls" style="height: 25%;"></div></div>
+              <div class="chart-bar-col"><div class="bar calls" style="height: 22%;"></div></div>
+            </div>
+          </div>
+          <div class="chart-legend">
+            <div class="legend-item"><span class="dot spend-dot"></span><span>Ad Spend</span></div>
+            <div class="legend-item"><span class="dot calls-dot"></span><span>Calls Answered</span></div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+
+  </section>
+
+  <!-- 6. HOW IT WORKS -->
+  <section class="how-it-works" id="how">
+    <div class="hiw-inner">
+      <header class="hiw-header reveal">
+        <div class="section-eyebrow">How it works</div>
+        <h2 class="section-title" style="text-align:left;max-width:20ch;margin:0">Live in 7–14 days. No contract.</h2>
+      </header>
+      <div class="hiw-body">
+        <nav class="hiw-rail" aria-label="Steps">
+          <div class="hiw-rail-line" aria-hidden="true"></div>
+          <button class="hiw-step is-active" data-step="0"><span class="hiw-step-num">01</span><span class="hiw-step-label">Tell us how you work</span></button>
+          <button class="hiw-step" data-step="1"><span class="hiw-step-num">02</span><span class="hiw-step-label">Forward your number</span></button>
+          <button class="hiw-step" data-step="2"><span class="hiw-step-num">03</span><span class="hiw-step-label">Wake up to confirmed jobs</span></button>
+        </nav>
+        <div class="hiw-panels">
+          <div class="hiw-panel is-active" data-panel="0">
+            <h3 class="hiw-panel-title">Tell us how you work.</h3>
+            <p class="hiw-panel-body">Your rates, your availability, your job types. We configure Relayn around your process — not the other way around.</p>
+            <div class="hiw-visual">
+              <div class="setup-form-mock">
+                <div class="mock-field">
+                  <label>Business type</label>
+                  <div class="console-input">Residential Plumbing</div>
+                </div>
+                <div class="mock-field">
+                  <label>Coverage hours</label>
+                  <div class="console-input">24/7 / After-Hours Overflow</div>
+                </div>
+                <div class="mock-row">
+                  <div class="mock-field">
+                    <label>Emergency rate</label>
+                    <div class="console-input">$150 Callout</div>
+                  </div>
+                  <div class="mock-field">
+                    <label>Areas served</label>
+                    <div class="console-input">Greater London</div>
+                  </div>
+                </div>
+                <button class="mock-save-btn">Save & Continue →</button>
+              </div>
+            </div>
+          </div>
+          <div class="hiw-panel" data-panel="1">
+            <h3 class="hiw-panel-title">Forward your number.</h3>
+            <p class="hiw-panel-body">You keep your number. Customers notice nothing — except they always get an answer.</p>
+            <div class="hiw-visual">
+              <div class="forward-mock">
+                <div class="forward-flow">
+                  <div class="flow-pill">YOUR NUMBER</div>
+                  <div class="flow-arrow">→</div>
+                  <div class="flow-pill is-highlight">RELAYN HANDLES</div>
+                </div>
+                <div class="forward-badge">
+                  <span class="green-dot animate-pulse"></span>
+                  <span>FORWARDING ACTIVE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hiw-panel" data-panel="2">
+            <h3 class="hiw-panel-title">Wake up to confirmed jobs.</h3>
+            <p class="hiw-panel-body">Every call handled, logged, and ready. You choose what gets flagged.</p>
+            <div class="hiw-visual">
+              <div class="job-log-mock">
+                <div class="mock-header">JOB LOG — TODAY</div>
+                <div class="mock-rows">
+                  <div class="mock-log-row">
+                    <span class="log-time">14:22</span>
+                    <span class="log-caller">John S.</span>
+                    <span class="log-pill type">Burst Pipe</span>
+                    <span class="log-pill status booked">Booked</span>
+                  </div>
+                  <div class="mock-log-row">
+                    <span class="log-time">15:05</span>
+                    <span class="log-caller">Sarah L.</span>
+                    <span class="log-pill type">Boiler Service</span>
+                    <span class="log-pill status booked">Booked</span>
+                  </div>
+                  <div class="mock-log-row">
+                    <span class="log-time">16:40</span>
+                    <span class="log-caller">Spam Bot</span>
+                    <span class="log-pill type">Telemarketing</span>
+                    <span class="log-pill status flagged">Flagged</span>
+                  </div>
+                </div>
+                <div class="mock-footer">3 calls · 2 booked · 1 flagged</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. USE CASES -->
+  <section class="use-cases" id="cases">
+    <div class="uc-inner reveal">
+      <div class="section-eyebrow" style="text-align:center">Use cases</div>
+      <h2 class="section-title" style="text-align:center;max-width:22ch;margin:0 auto 56px">One agent. Every call you'd otherwise miss.</h2>
+      <div class="uc-grid">
+        <div class="uc-card">
+          <span class="uc-scenario">On the job</span>
+          <h3 class="uc-title">You're mid-installation. Three calls come in.</h3>
+          <p class="uc-body">Relayn handles all three simultaneously. Every caller gets an answer. Every job gets logged. You finish the work you're on.</p>
+        </div>
+        <div class="uc-card">
+          <span class="uc-scenario">2am emergency</span>
+          <h3 class="uc-title">A homeowner has a burst pipe. It's 2am.</h3>
+          <p class="uc-body">Relayn picks up, confirms the emergency, gets the address, explains your rate, and books the slot. You wake up to a completed job card.</p>
+        </div>
+        <div class="uc-card">
+          <span class="uc-scenario">New campaign</span>
+          <h3 class="uc-title">You just started running ads in a new area.</h3>
+          <p class="uc-body">Relayn handles every inbound call from day one — qualifying job type and urgency before it ever reaches you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq-inner reveal">
+      <div class="faq-left">
+        <div class="section-eyebrow">FAQ</div>
+        <h2 class="faq-heading">Common<br>questions.</h2>
+      </div>
+      <div class="faq-right">
+        <dl class="faq-list">
+          <div class="faq-item"><dt><button class="faq-btn" aria-expanded="false">Will callers know they're talking to AI?<span class="faq-chevron" aria-hidden="true">+</span></button></dt><dd class="faq-a"><div class="faq-a-inner">Most won't. Relayn sounds natural, not robotic. If you prefer, it can introduce itself as your virtual assistant. Your call.</div></dd></div>
+          <div class="faq-item"><dt><button class="faq-btn" aria-expanded="false">What if it gets something wrong?<span class="faq-chevron" aria-hidden="true">+</span></button></dt><dd class="faq-a"><div class="faq-a-inner">Every call is recorded and transcribed. You catch anything it misses before you drive across town — not after.</div></dd></div>
+          <div class="faq-item"><dt><button class="faq-btn" aria-expanded="false">Can it handle complex enquiries?<span class="faq-chevron" aria-hidden="true">+</span></button></dt><dd class="faq-a"><div class="faq-a-inner">Emergencies, quotes, repeat bookings, parts enquiries — yes. Anything unusual, it takes the caller's details and flags it for you.</div></dd></div>
+          <div class="faq-item"><dt><button class="faq-btn" aria-expanded="false">How is this different from an answering service?<span class="faq-chevron" aria-hidden="true">+</span></button></dt><dd class="faq-a"><div class="faq-a-inner">An answering service leaves you a sticky note. Relayn gives you a completed job record — address confirmed, callout rate agreed, time booked.</div></dd></div>
+          <div class="faq-item"><dt><button class="faq-btn" aria-expanded="false">How long does setup take?<span class="faq-chevron" aria-hidden="true">+</span></button></dt><dd class="faq-a"><div class="faq-a-inner">7–14 days. You give us your process. We handle the rest.</div></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FINAL CTA -->
+  <section class="final-cta" id="plans">
+    <div class="cta-bg" aria-hidden="true"></div>
+    <div class="cta-inner reveal">
+      <div class="section-eyebrow" style="text-align:center;margin-bottom:20px">Ready when you are</div>
+      <h2 class="cta-headline">Stop sending jobs<br>to voicemail.</h2>
+      <p class="cta-sub">Live in 7–14 days. No contract. No setup fees.</p>
+      <div class="cta-actions">
+        <a href="#plans" class="cta-primary">Work with us →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <a href="/" class="footer-brand">RELAYN AI</a>
+          <p class="footer-tagline">Answers every call.<br>Books every job.</p>
+        </div>
+        <nav class="footer-nav-col">
+          <span class="footer-nav-heading">Product</span>
+          <a href="#how">How it works</a>
+          <a href="#cases">Use cases</a>
+          <a href="#demo">Demo</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+        <nav class="footer-nav-col">
+          <span class="footer-nav-heading">Company</span>
+          <a href="#plans">Work with us</a>
+          <a href="/privacy.html">Privacy policy</a>
+          <a href="/terms.html">Terms of use</a>
+        </nav>
+        <div class="footer-social-col">
+          <span class="footer-nav-heading">Follow</span>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://x.com"        target="_blank" rel="noopener">X.com</a>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom">
+        <span class="footer-copy">
+          © 2026 Relayn AI. All rights reserved.<br>
+          Relayn AI is operated by Joel Maundu.
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script type="module" src="/script.js"></script>
+</body>
+</html>
